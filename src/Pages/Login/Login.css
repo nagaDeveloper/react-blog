@@ -1,0 +1,43 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)), url("https://th.bing.com/th?id=OIP.roeJGz3eeyhxK3XRQ0LxpQHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2");
+    background-size: cover;
+}
+.login-title{
+    font-size: 50px;
+}
+.login-form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.login-form > label{
+    margin: 10px 0;
+}
+.login-input{
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+}
+.login-button{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    padding: 14px;
+}
+.register-login{
+    position: absolute;
+    top: 60px;
+    right: 20px; 
+    background-color: lightcoral;
+    cursor: pointer;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+}
